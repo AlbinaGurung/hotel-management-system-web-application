@@ -3,6 +3,7 @@
         <h3>Add Rooms</h3>
         <form  method="POST" action="">
             <div class="form-group">
+                
                 <input type="text" name="room" placeholder="Room" class="form-control" required/>
                 
             </div>

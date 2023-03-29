@@ -1,15 +1,21 @@
+<?php
+?>
+
+
 <div class="col-12 bg-green">
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <!-- <a class="navbar-brand" href="#">Navbar</a> -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <a class="navbar-brand" href="#">
+    <img src="/assets/imgs/logo.jpg" class="rounded-circle" width="60" height="60" alt="">
+  </a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
 
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
-    <ul class="navbar-nav mr-auto">
+    <ul class="navbar-nav ms-auto">
       
       <li class="nav-item">
-        <a class="nav-link" href="#">Home</a>
+        <a class="nav-link active" href="#">Home</a>
       </li>
       <li class="nav-item">
         <a class="nav-link " href="#">Booked</a>
@@ -28,10 +34,14 @@
       </li>
       
       <li class="nav-item">
-        <a class="nav-link" href="index.php?vie=1">Rooms</a>
+        <a class="nav-link" href="include/Rooms.php">Rooms</a>
       </li>
     </ul>
-   
+   <ul class="navbar-nav ms-auto">
+    <li class="nav-link">
+      <a href="/" class="nav-link">Hi!, <?=$_SESSION['username'];?></a>
+    </li>
+   </ul>
   </div>
 </nav>
 </div>

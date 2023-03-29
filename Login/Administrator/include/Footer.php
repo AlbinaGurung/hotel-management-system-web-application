@@ -1,9 +1,7 @@
-<div class="row bg-blue text-Black text-center">
-            <div class="col-12 my-3">
+<div class="container-fluid bg-dark text-white py-2 text-center">
                <p>&copy;Copyright 2022 -All Rights Reserved<br />
                Developed By Albina Gurung
                </p>
-            </div>
             
             </div>
 
