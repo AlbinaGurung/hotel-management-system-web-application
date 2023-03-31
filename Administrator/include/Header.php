@@ -1,6 +1,7 @@
 <?php
 session_start();
-require_once("connect.php");
+// require_once(".../connect.php");
+require_once("C:\\xampp\\htdocs\\Online Hotel Management System Web App\connect.php");
 if(!isset($_SESSION['KEY']))
 {
    // echo "<script>location.assign('logout.php');</script>"
@@ -16,8 +17,7 @@ if(!isset($_SESSION['KEY']))
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Adminpanel-Online Hotel Management System</title>
-    <link rel="stylesheet" href="../Res/css/bootstrap.min.css">
-    <link rel="stylesheet" href="../Res/css/style.css">
+    <link rel="stylesheet" href="../../assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../../assets/css/style.css">
 </head>
-<body>
     

@@ -76,7 +76,10 @@ color: white;
 margin-left: 4px;
 }
 
-
+.bg-dark
+{
+background-color: black;
+}
 .bg-green{
     background-color: #67c232;
 
