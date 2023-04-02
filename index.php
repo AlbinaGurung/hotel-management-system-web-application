@@ -234,7 +234,7 @@ mysqli_query($connection, "INSERT INTO users(username, email, password, user_rol
 
 				?>
 				<!-- <script> location.assign("Customers/index.php"); </script> -->
-				<script> location.assign("Customers/Customer_Dashboard.php"); </script>
+				<script> location.assign("Customers/home.php"); </script>
 					<?php
 
 			}
