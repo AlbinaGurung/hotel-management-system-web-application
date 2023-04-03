@@ -10,53 +10,61 @@
                 <hr class="text-white d-none d-sm-block"/>
                 <ul class="nav nav-pills flex-column mt-4 mt-sm-0 " id="menu">
                     <li class="nav-item my-sm-1 my-2">
-                        <a href="/Customers/home.php" class="nav-link text-white text-center text-sm-start" aria-current="page">
+                        <a href="#" class="nav-link text-white text-center text-sm-start" aria-current="page">
                             <i class="fa fa-gauge"></i>
+                            <span class="ms-2 d-none d-sm-inline">Dashboard</span>
+                        </a>
+                    </li>
+
+                    <li class="nav-item my-sm-1 my-2">
+                        <a href="#" class="nav-link text-white text-center text-sm-start" aria-current="page">
+                            <i class="fa fa-house"></i>
                             <span class="ms-2 d-none d-sm-inline">Home</span>
                         </a>
                     </li>
 
                     <li class="nav-item my-sm-1 my-2">
-                        <a href="/Customers/SeeRooms.php" class="nav-link text-white text-center text-sm-start" aria-current="page">
-                            <i class="fa fa-house"></i>
-                            <span class="ms-2 d-none d-sm-inline">See Rooms</span>
+                        <a href="#sidemenu" data-bs-toogle="collapse" class="nav-link text-white text-center text-sm-start" aria-current="page">
+                            <i class="fa fa-table"></i>
+                            <span class="ms-2 d-none d-sm-inline">products</span>
+                            <i class="fa fa-caret-down"></i>
+                        </a>
+                        <ul class="nav collapse ms-1 flex-column" id="sidemenu" data-bs-parent="#menu">
+                            <li class="nav-item">
+                                <a href="" class="nav-link text-white text-center text-sm-start" aria-curent="page">Item 1</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="" class="nav-link text-white text-center text-sm-start" aria-curent="page">Item 2</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item my-sm-1 my-2">
+                        <a href="#" class="nav-link text-white text-center text-sm-start" aria-current="page">
+                            <i class="fa fa-users"></i>
+                            <span class="ms-2 d-none d-sm-inline">Customers</span>
                         </a>
                     </li>
 
-                    <li class="nav-item my-sm-1 my-2">
-                        <a href="/Customers/booknow.php" data-bs-toogle="collapse" class="nav-link text-white text-center text-sm-start" aria-current="page">
-                            <i class="fa fa-table"></i>
-                            <span class="ms-2 d-none d-sm-inline">Book now</span>
-                            <i class="fa fa-caret-down"></i>
-                        </a>
-                    </li>
-                    <li class="nav-item my-sm-1 my-2">
-                        <a href="/Customers/Payment.php" data-bs-toogle="collapse" class="nav-link text-white text-center text-sm-start" aria-current="page">
-                            <i class="fa fa-table"></i>
-                            <span class="ms-2 d-none d-sm-inline">Payment</span>
-                            <i class="fa fa-caret-down"></i>
-                        </a>
-                    </li>
-                 
+                </ul>
+
+            
 
             </div>
 
         <div class="dropdown open">
             <a class="btn border-none outline-none text-white dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false"> 
-           <i class="fa fa-user"></i><span class="ms-1 d-none d-sm-inline">You</span>
+           <i class="fa fa-user"></i><span class="ms-1 d-none d-sm-inline">Yousaf</span>
            </a>
             <div class="dropdown-menu" aria-labelledby="triggerId">
            <a class="dropdown-item" href="#">Profile</a>
            <a class="dropdown-item" href="#">Settings</a>
            
            </div>
-</div>
+        </div>
+            
 
 
             
         </div>
     </div>
-</div>
-<div class="container-fluid" style="display:flex; justify-content:center; align-items:center;" >
-<button type="button" class="btn btn-success">Book Now</button>
 </div>

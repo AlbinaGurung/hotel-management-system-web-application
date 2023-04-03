@@ -7,8 +7,11 @@
     <title>Document</title>
     <link rel="stylesheet" href="../../assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="../../assets/css/style.css">
+    <link rel="stylesheet" href="../../assets/css/CustomerStyle.css">
 </head>
 <body>
-
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-
+<div class="container-fluid bg-secondary text-white py-2 text-center">
+               <p>Online Hotel Management System
+               </p>
+            
+            </div>

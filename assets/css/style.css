@@ -1,4 +1,4 @@
-/* Made with love by Mutiullah Samim*/
+
 
 @import url('https://fonts.googleapis.com/css?family=Numans');
 
@@ -80,13 +80,21 @@ margin-left: 4px;
 {
 background-color: black;
 }
-.bg-green{
+.bg-green
+{
     background-color: #67c232;
 
 
 }
-.text-green{color:#67c232;}
+.text-green
+{
+    color:#67c232;
+}
 .text-black
 {
     background-color: black;
+}
+
+.nav-pills li a:hover{
+background-color: blue;
 }
