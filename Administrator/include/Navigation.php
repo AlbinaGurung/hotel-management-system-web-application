@@ -22,7 +22,7 @@
       </li>
       
       <li class="nav-item">
-        <a class="nav-link " href="AdminDashboard/Checkin.php">Check In</a>
+        <a class="nav-link " href="/Administrator/AdminDashboard/Checkedin.php">Check In</a>
       </li>
 
       <li class="nav-item">
