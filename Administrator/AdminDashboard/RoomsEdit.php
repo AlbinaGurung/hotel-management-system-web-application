@@ -5,10 +5,14 @@ require_once("../../connect.php");
 function getRoomById($id)
 {
     global $connection;
-$room=mysqli_query($connection,"SELECT *FROM `rooms` where ID=$id;");
+$fetchRoom = mysqli_query($connection,"SELECT *FROM `rooms` where ID=$id;");
+$room = mysqli_fetch_assoc($fetchRoom);
+return $room;
+
 }
 $roomId=$_GET['id'];
 $room=getRoomById($roomId);
+
 ?>
 
 <form action="" method="post">
@@ -24,20 +28,20 @@ $room=getRoomById($roomId);
                 <div class="col-md-6 mb-3>
                 <div class="col-md-6 mb-3>
                 <label for="id">ID</label>
-                <input type="text" name="id" value="">
+                <input type="text" name="id" value="<?=$room['ID']?>">
                 </div>
                 <label for="room">Room</label>
-                <input type="text" name="room" value="">
+                <input type="text" name="room" value="<?=$room['Room']?>">
                 </div>
 
                 <div class="col-md-6 mb-3>
                 <label for="category">Room Category</label>
-                <input type="text" name="category" value="">
+                <input type="text" name="category" value="<?=$room['Category']?>">
                 </div>
                 
                 <div class="col-md-6 mb-3>
                 <label for="availability">Availability</label>
-                <input type="text" name="availability" value="">
+                <input type="text" name="availability" value="<?=$room['Availability']?>">
                 </div>
 
             </div>

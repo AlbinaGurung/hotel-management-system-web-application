@@ -6,13 +6,13 @@ require_once("../include/Navigation.php");
 <br>
 <div class="container-fluid">
 <div class="d-flex justify-content-between align-items-center">
-<h1> Check Ins </h1>
-<div> <a class="btn btn-primary"> ,,, </a> </div>
+<h3> Check Ins </h3>
+<div> <a class="btn btn-primary" href="NewCheckin.php">New Checkin</a> </div>
 </div>
 </div>
     <div class="row">
         <div class="col-12">
-            <div><h3>Checked in</h3></div>
+            
             <table class="table">
              <thead>
             <tr>

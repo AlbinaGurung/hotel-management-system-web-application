@@ -7,7 +7,7 @@
     <title>Document</title>
     <link rel="stylesheet" href="../../assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="../../assets/css/bootstrap.min(1).css">
-    <link rel="stylesheet" href="../../assets/css/style.css">
+  
    
     <link rel="stylesheet" href="../../assets/css/CustomerStyle.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css">
